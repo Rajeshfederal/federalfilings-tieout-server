@@ -1,0 +1,468 @@
+{
+ "company": "VSee Health, Inc.",
+ "form": "10-Q",
+ "period": "Q1 2026",
+ "rows": [
+  {
+   "section": "MD&A Results of Operations table (p.54)",
+   "location": "Table",
+   "item": "Revenue \u2014 Q1 2026 / Q1 2025 / change (161,300, \u22125%)",
+   "mdna_value": 3160185,
+   "fs_value": 3160185,
+   "fs_source": "Income statement (both periods & change tie)",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "MD&A Results of Operations table (p.54)",
+   "location": "Table",
+   "item": "Cost of revenues \u2014 Q1 2026 / Q1 2025 / change (500,560, 34%)",
+   "mdna_value": 1962074,
+   "fs_value": 1962074,
+   "fs_source": "Income statement",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "MD&A Results of Operations table (p.54)",
+   "location": "Table",
+   "item": "Gross margin \u2014 Q1 2026 / Q1 2025 / change (\u2212661,860, \u221236%)",
+   "mdna_value": 1198111,
+   "fs_value": 1198111,
+   "fs_source": "Income statement",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "MD&A Results of Operations table (p.54)",
+   "location": "Table",
+   "item": "Operating expenses \u2014 Q1 2026 / Q1 2025 / change (481,097, 13%)",
+   "mdna_value": 4172386,
+   "fs_value": 4172386,
+   "fs_source": "Income statement",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "MD&A Results of Operations table (p.54)",
+   "location": "Table",
+   "item": "Other income (expense) \u2014 Q1 2026 / Q1 2025 / change (2,512,368, 119%)",
+   "mdna_value": 397751,
+   "fs_value": 397751,
+   "fs_source": "Income statement",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "MD&A Results of Operations table (p.54)",
+   "location": "Table",
+   "item": "Loss before taxes \u2014 Q1 2026 / Q1 2025 / change (1,369,411, 35%)",
+   "mdna_value": -2576524,
+   "fs_value": -2576524,
+   "fs_source": "Income statement",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "MD&A Results of Operations table (p.54)",
+   "location": "Table",
+   "item": "Income tax provision \u2014 Q1 2026 / Q1 2025 / change (\u221210,233, \u221276%)",
+   "mdna_value": -23738,
+   "fs_value": -23738,
+   "fs_source": "Income statement",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "MD&A Results of Operations table (p.54)",
+   "location": "Table",
+   "item": "Net loss \u2014 Q1 2026 / Q1 2025 / change (1,359,178, 34%)",
+   "mdna_value": -2600262,
+   "fs_value": -2600262,
+   "fs_source": "Income statement & cash flow stmt",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Revenue narrative (p.54\u201355)",
+   "location": "Narrative",
+   "item": "Telehealth fees increase (106%)",
+   "mdna_value": 514103,
+   "fs_value": 514103,
+   "fs_source": "Income stmt: 997,953 \u2212 483,850",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Revenue narrative (p.54\u201355)",
+   "location": "Narrative",
+   "item": "Tele-ICU recurring revenue in Q1 2025 (non-renewed)",
+   "mdna_value": 437400,
+   "fs_value": null,
+   "fs_source": "Contract-level; not disclosed in F/S",
+   "status": "NOT IN F/S \u2014 CONFIRM",
+   "note": ""
+  },
+  {
+   "section": "Revenue narrative (p.54\u201355)",
+   "location": "Narrative",
+   "item": "Patient fees increase (24%)",
+   "mdna_value": 170076,
+   "fs_value": 170076,
+   "fs_source": "Income stmt: 881,340 \u2212 711,264",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Revenue narrative (p.54\u201355)",
+   "location": "Narrative",
+   "item": "Professional services decrease (35%)",
+   "mdna_value": -315699,
+   "fs_value": -315699,
+   "fs_source": "Income stmt: 580,981 \u2212 896,680",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Revenue narrative (p.54\u201355)",
+   "location": "Narrative",
+   "item": "Technical engineering decline (76%)",
+   "mdna_value": -305405,
+   "fs_value": -305405,
+   "fs_source": "Income stmt: 94,441 \u2212 399,846",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Revenue narrative (p.54\u201355)",
+   "location": "Narrative",
+   "item": "Subscription fees decrease (27%)",
+   "mdna_value": -221875,
+   "fs_value": -221875,
+   "fs_source": "Income stmt: 605,470 \u2212 827,345",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Cost of revenues / margins (p.55)",
+   "location": "Narrative",
+   "item": "Cost of revenues Q1 2026 (+500,560, 34%)",
+   "mdna_value": 1962074,
+   "fs_value": 1962074,
+   "fs_source": "Income statement",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Cost of revenues / margins (p.55)",
+   "location": "Narrative",
+   "item": "Gross margin 38% vs 56% prior year",
+   "mdna_value": 38,
+   "fs_value": 38,
+   "fs_source": "Recomputed: 1,198,111/3,160,185; 1,859,971/3,321,485",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Operating expenses narrative (p.55)",
+   "location": "Narrative",
+   "item": "G&A increase (20%)",
+   "mdna_value": 408092,
+   "fs_value": 408092,
+   "fs_source": "Income stmt: 2,440,383 \u2212 2,032,291",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Operating expenses narrative (p.55)",
+   "location": "Narrative",
+   "item": "Bad debt expense increase \u2014 stated 230%",
+   "mdna_value": 286529,
+   "fs_value": 234875,
+   "fs_source": "Note 2 & cash flow: 355,794 \u2212 120,919",
+   "status": "MISMATCH",
+   "note": "Correct increase $234,875, or 194%. Neither stated figure is supported"
+  },
+  {
+   "section": "Operating expenses narrative (p.55)",
+   "location": "Narrative",
+   "item": "Business consulting cost increase",
+   "mdna_value": 288900,
+   "fs_value": null,
+   "fs_source": "Not separately disclosed",
+   "status": "NOT IN F/S \u2014 CONFIRM",
+   "note": "Itemized G&A drivers net to +468,585 vs actual +408,092 \u2014 list does not reconcile"
+  },
+  {
+   "section": "Operating expenses narrative (p.55)",
+   "location": "Narrative",
+   "item": "Investor relations increase (74%)",
+   "mdna_value": 67912,
+   "fs_value": null,
+   "fs_source": "Not separately disclosed",
+   "status": "NOT IN F/S \u2014 CONFIRM",
+   "note": ""
+  },
+  {
+   "section": "Operating expenses narrative (p.55)",
+   "location": "Narrative",
+   "item": "Legal & professional fees increase (169%)",
+   "mdna_value": 70347,
+   "fs_value": null,
+   "fs_source": "Not separately disclosed",
+   "status": "NOT IN F/S \u2014 CONFIRM",
+   "note": ""
+  },
+  {
+   "section": "Operating expenses narrative (p.55)",
+   "location": "Narrative",
+   "item": "Audit fee reduction (33%)",
+   "mdna_value": -79778,
+   "fs_value": null,
+   "fs_source": "Not separately disclosed",
+   "status": "NOT IN F/S \u2014 CONFIRM",
+   "note": ""
+  },
+  {
+   "section": "Operating expenses narrative (p.55)",
+   "location": "Narrative",
+   "item": "Accounting fees decrease (68%)",
+   "mdna_value": -65538,
+   "fs_value": null,
+   "fs_source": "Not separately disclosed",
+   "status": "NOT IN F/S \u2014 CONFIRM",
+   "note": ""
+  },
+  {
+   "section": "Operating expenses narrative (p.55)",
+   "location": "Narrative",
+   "item": "Franchise tax reduction (100%)",
+   "mdna_value": -62842,
+   "fs_value": null,
+   "fs_source": "Not separately disclosed",
+   "status": "NOT IN F/S \u2014 CONFIRM",
+   "note": ""
+  },
+  {
+   "section": "Operating expenses narrative (p.55)",
+   "location": "Narrative",
+   "item": "Lease expense decrease (93%)",
+   "mdna_value": -36945,
+   "fs_value": null,
+   "fs_source": "Not separately disclosed",
+   "status": "NOT IN F/S \u2014 CONFIRM",
+   "note": ""
+  },
+  {
+   "section": "Operating expenses narrative (p.55)",
+   "location": "Narrative",
+   "item": "Compensation increase (4%)",
+   "mdna_value": 73005,
+   "fs_value": 73005,
+   "fs_source": "Income stmt: 1,732,003 \u2212 1,658,998",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Other (income) expense narrative (p.55)",
+   "location": "Narrative",
+   "item": "Decrease in other (income) expense, net",
+   "mdna_value": 2512368,
+   "fs_value": 2512368,
+   "fs_source": "Income stmt: 397,751 \u2212 (2,114,617)",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Other (income) expense narrative (p.55)",
+   "location": "Narrative",
+   "item": "Stated 'favorable movement' total",
+   "mdna_value": 2527905,
+   "fs_value": 2527907,
+   "fs_source": "Sum of its own components: 1,404,511+367,809+617,567+138,020",
+   "status": "MISMATCH",
+   "note": "$2 footing error \u2014 minor"
+  },
+  {
+   "section": "Other (income) expense narrative (p.55)",
+   "location": "Narrative",
+   "item": "Change in FV of financial instruments (swing)",
+   "mdna_value": 1404511,
+   "fs_value": 1404511,
+   "fs_source": "Income stmt: 143,040 + 1,261,471",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Other (income) expense narrative (p.55)",
+   "location": "Narrative",
+   "item": "Gain on extinguishment of financial liabilities",
+   "mdna_value": 367809,
+   "fs_value": 367809,
+   "fs_source": "Income statement",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Other (income) expense narrative (p.55)",
+   "location": "Narrative",
+   "item": "Reduction in interest expense",
+   "mdna_value": 617567,
+   "fs_value": 617567,
+   "fs_source": "Income stmt: 730,665 \u2212 113,098",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Other (income) expense narrative (p.55)",
+   "location": "Narrative",
+   "item": "Prior-period loss on issuance (absent in 2026)",
+   "mdna_value": 138020,
+   "fs_value": 138020,
+   "fs_source": "Income statement Q1 2025",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Critical accounting policies \u2014 Goodwill (p.53)",
+   "location": "Narrative",
+   "item": "Goodwill impairment 'for the year ended December 31, 2025'",
+   "mdna_value": 56675210,
+   "fs_value": 56675210,
+   "fs_source": "FY2025 10-K: charge recorded in FY2024; FY2025 had no impairment",
+   "status": "YEAR LABEL ERROR",
+   "note": "Both year references should read 2024 \u2014 misstates which audited period carries the $56.7M charge"
+  },
+  {
+   "section": "Net loss narrative (p.55\u201356)",
+   "location": "Narrative",
+   "item": "Net loss decrease (34%)",
+   "mdna_value": 1359178,
+   "fs_value": 1359178,
+   "fs_source": "Income stmt: 3,959,440 \u2212 2,600,262",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Net loss narrative (p.55\u201356)",
+   "location": "Narrative",
+   "item": "Gross profit decline",
+   "mdna_value": -661860,
+   "fs_value": -661860,
+   "fs_source": "Income statement",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Liquidity & cash flows (p.56)",
+   "location": "Narrative",
+   "item": "Cash & equivalents as of March 31, 2026",
+   "mdna_value": 1346132,
+   "fs_value": 1346132,
+   "fs_source": "Balance sheet / cash flow stmt",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Liquidity & cash flows (p.56)",
+   "location": "Narrative",
+   "item": "Cash & equivalents as of March 31, 2025",
+   "mdna_value": 2327337,
+   "fs_value": 410122,
+   "fs_source": "Cash flow stmt, cash end of period Q1 2025",
+   "status": "MISMATCH",
+   "note": "$2,327,337 appears nowhere in the F/S; 12/31/25 balance would be $5,266,286"
+  },
+  {
+   "section": "Liquidity & cash flows (p.56)",
+   "location": "Table",
+   "item": "Operating cash flow Q1 2026 / Q1 2025",
+   "mdna_value": -2452191,
+   "fs_value": -2452191,
+   "fs_source": "Cash flow stmt (prior year \u2212440,493 also ties)",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Liquidity & cash flows (p.56)",
+   "location": "Table",
+   "item": "Investing Q1 2026 / Q1 2025",
+   "mdna_value": -126752,
+   "fs_value": -126752,
+   "fs_source": "Cash flow stmt (prior year \u221211,873 also ties)",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Liquidity & cash flows (p.56)",
+   "location": "Table",
+   "item": "Financing Q1 2026 / Q1 2025",
+   "mdna_value": -1341211,
+   "fs_value": -1341211,
+   "fs_source": "Cash flow stmt (prior year 536,373 also ties)",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Liquidity & cash flows (p.56)",
+   "location": "Table",
+   "item": "Change in cash Q1 2026 / Q1 2025",
+   "mdna_value": -3920154,
+   "fs_value": -3920154,
+   "fs_source": "Cash flow stmt (prior year 84,007 also ties)",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Liquidity & cash flows (p.56)",
+   "location": "Narrative",
+   "item": "Operating narrative: net loss",
+   "mdna_value": -2600262,
+   "fs_value": -2600262,
+   "fs_source": "Cash flow statement",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Liquidity & cash flows (p.56)",
+   "location": "Narrative",
+   "item": "Operating narrative: non-cash items",
+   "mdna_value": 935293,
+   "fs_value": 935293,
+   "fs_source": "Cash flow stmt adjustments recompute exactly",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Liquidity & cash flows (p.56)",
+   "location": "Narrative",
+   "item": "Operating narrative: working-capital outflow",
+   "mdna_value": -787222,
+   "fs_value": -787222,
+   "fs_source": "Cash flow stmt changes recompute exactly",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Liquidity & cash flows (p.56)",
+   "location": "Narrative",
+   "item": "Investing narrative (fixed assets + investments)",
+   "mdna_value": 126752,
+   "fs_value": 126752,
+   "fs_source": "Cash flow stmt: 26,752 + 100,000",
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "section": "Liquidity & cash flows (p.56)",
+   "location": "Narrative",
+   "item": "Financing narrative Q1 2026 / prior-year inflow",
+   "mdna_value": -1341211,
+   "fs_value": -1341211,
+   "fs_source": "Cash flow stmt (536,373 also ties)",
+   "status": "MATCH",
+   "note": ""
+  }
+ ],
+ "memo_markdown": "# VSee Health, Inc. \u2014 Form 10-Q (Q1, three months ended 3/31/2026)\n## MD&A vs. Financial Statements Tie-Out Memo\nPrepared 8/3/2026 \u00b7 Source file: vsee10q033126.htm\n\n---\n\n## A. DISCREPANCIES \u2014 MD&A does not agree to the financial statements\n\n### 1. Goodwill impairment attributed to the wrong year (Critical Accounting Policies \u2014 Goodwill, p. 53)\n- **MD&A:** \"During the year ended **December 31, 2025**, we determined there were triggering events\u2026 As a result, we recorded non-cash goodwill impairment charges of $56,675,210 on the consolidated statement of operations for the year ended **December 31, 2025**.\"\n- **Authoritative:** the FY2025 10-K records the $56,675,210 impairment in **fiscal 2024**; for fiscal 2025 the Company performed a quantitative test and concluded **no impairment** was required. Both year references should be 2024.\n- This misstates which audited period carries a $56.7 million charge.\n\n### 2. Prior-year cash balance in Liquidity (p. 56)\n- **MD&A:** \"cash and cash equivalents, totalling $1,346,132 and **$2,327,337** as of March 31, 2026, and 2025, respectively\"\n- **F/S (Statement of Cash Flows):** cash at March 31, 2025 was **$410,122**. ($1,346,132 for 3/31/26 ties.)\n- $2,327,337 appears nowhere in the financial statements. If the intended comparison was December 31, 2025, that figure is $5,266,286.\n\n### 3. Bad debt expense increase (G&A narrative, p. 55)\n- **MD&A:** \"an increase in bad debt expense of **$286,529, or 230%**\"\n- **F/S (Note 2 & cash flow statement):** credit loss expense $355,794 (Q1 2026) vs. $120,919 (Q1 2025) = increase of **$234,875, or 194%**.\n- Both the dollar amount and the percentage are unsupported.\n\n### 4. Favorable movement in other income does not foot (Other (Income) Expense, p. 55) \u2014 minor\n- **MD&A:** \"$2,527,905 favorable movement\" attributed to components of $1,404,511 + $367,809 + $617,567 + $138,020, which sum to **$2,527,907** ($2 difference). Each component individually ties to the income statement; only the stated total is off.\n\n---\n\n## B. ITEMS THAT CANNOT BE TRACED to the F/S (confirm support elsewhere)\n\n- **$437,400** recurring revenue from non-renewed Tele-ICU contracts in Q1 2025 (contract-level detail).\n- G&A sub-drivers: business consulting **$288,900**; investor relations **$67,912 / 74%**; legal & professional **$70,347 / 169%**; audit fee reduction **$79,778 / 33%**; accounting fees **$65,538 / 68%**; franchise tax **$62,842 / 100%**; lease expense **$36,945 / 93%** \u2014 none separately disclosed in the F/S.\n- Note: the itemized G&A drivers net to **+$468,585**, which does not reconcile to the actual G&A increase of **$408,092** (nor with the corrected bad-debt figure, which nets to $416,931). At least one listed driver is wrong or the list is incomplete.\n\n## C. Observations (not number errors)\n\n- The MD&A introduction twice refers to \"this **Annual Report**\" and to a restatement \"Explanatory Note to this Annual Report\" \u2014 this is a Quarterly Report; the language appears carried over from the 10-K. Confirm whether the restatement reference belongs in this filing at all.\n- Cash-flow table caption reads \"Net cash used in **from** investing activities\" (typo carried over from the 10-K).\n\n---\n\n## D. ITEMS VERIFIED \u2014 agree to F/S and recompute correctly\n\n**Results of operations table:** all eight lines, both periods, every change amount and percentage tie to the income statement \u2014 Revenue 3,160,185 / 3,321,485 / (161,300) / (5)% \u00b7 CoR 1,962,074 / 1,461,514 / 500,560 / 34% \u00b7 Gross margin 1,198,111 / 1,859,971 / (661,860) / (36)% \u00b7 Opex 4,172,386 / 3,691,289 / 481,097 / 13% \u00b7 Other income 397,751 / (2,114,617) / 2,512,368 / 119% \u00b7 Loss before taxes (2,576,524) / (3,945,935) / 1,369,411 / 35% \u00b7 Tax (23,738) / (13,505) / (10,233) / (76)% \u00b7 Net loss (2,600,262) / (3,959,440) / 1,359,178 / 34% \u2713\n\n**Revenue drivers:** telehealth +514,103 / 106% \u2713 \u00b7 patient +170,076 / 24% \u2713 \u00b7 professional services \u2212315,699 / 35% \u2713 \u00b7 technical engineering \u2212305,405 / 76% \u2713 \u00b7 subscription \u2212221,875 / 27% \u2713 (drivers cross-foot to the \u2212161,300 total) \u2713\n\n**Margins & expense totals:** gross margin 38% vs. 56% \u2713 \u00b7 G&A +408,092 / 20% \u2713 \u00b7 compensation +73,005 / 4% \u2713\n\n**Other income components:** FV change swing 1,404,511 \u2713 \u00b7 gain on extinguishment 367,809 \u2713 \u00b7 interest reduction 617,567 \u2713 \u00b7 prior-year issuance loss 138,020 \u2713 \u00b7 other-income offset 15,539 \u2713\n\n**Cash flows:** table ties for all four captions, both periods \u2713 \u00b7 operating narrative (net loss 2,600,262; non-cash 935,293; working-capital outflow 787,222) recomputes exactly to the statement \u2713 \u00b7 investing 126,752 (26,752 fixed assets + 100,000 investments) \u2713 \u00b7 financing (1,341,211) and prior-year 536,373 \u2713 \u00b7 equity rollforward and EPS \u2713\n"
+}
