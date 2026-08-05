@@ -79,7 +79,7 @@ def run_ai_pass(narrative_text, fs_text, scan_results):
               .replace("{fs}", fs_text))
     msg = client.messages.create(
         model=MODEL,
-        max_tokens=32000,
+        max_tokens=8192,
         system=SYSTEM,
         messages=[{"role": "user", "content": prompt}],
     )
