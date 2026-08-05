@@ -84,8 +84,14 @@ def run_ai_pass(narrative_text, fs_text, scan_results):
         messages=[{"role": "user", "content": prompt}],
     )
     text = "".join(b.text for b in msg.content if b.type == "text").strip()
-    if text.startswith("```"):
-        text = text.split("```")[1]
-        if text.startswith("json"):
-            text = text[4:]
-    return json.loads(text)
+
+print("===== CLAUDE RESPONSE START =====")
+print(text)
+print("===== CLAUDE RESPONSE END =====")
+
+if text.startswith("```"):
+    text = text.split("```")[1]
+    if text.startswith("json"):
+        text = text[4:]
+
+return json.loads(text)
