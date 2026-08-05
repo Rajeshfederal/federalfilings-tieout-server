@@ -115,10 +115,11 @@ DEFAULT_NARRATIVE_END = [
     r"Item\s*3\.?\s*\n?\s*Quantitative", r"Item\s*4\.?\s*\n?\s*Controls",
 ]
 DEFAULT_FS_START = [
-    r"Item\s*8\.?\s*\n?\s*Financial Statements",
-    r"Item\s*1\.?\s*\n?\s*Financial Statements",
+    r"Item\s*8\.?\s*\n?\s*(?:\w+\s+){0,3}Financial Statements",
+    r"Item\s*1\.?\s*\n?\s*(?:\w+\s+){0,3}Financial Statements",
     r"INDEX\s+TO\s+CONSOLIDATED\s+FINANCIAL\s+STATEMENTS",
     r"REPORT\s+OF\s+INDEPENDENT\s+REGISTERED",
+    r"(?:CONDENSED\s+|CONSOLIDATED\s+|UNAUDITED\s+)*BALANCE\s+SHEETS?",
 ]
 DEFAULT_FS_END = [
     r"Item\s*9\.?\s*\n?\s*Changes\s+in\s+and\s+Disagreements",
