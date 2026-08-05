@@ -65,33 +65,46 @@ def run_ai_pass(narrative_text, fs_text, scan_results):
     if os.environ.get("TIEOUT_MOCK"):
         with open(os.environ["TIEOUT_MOCK"], encoding="utf-8") as f:
             return json.load(f)
+
     import anthropic
     client = anthropic.Anthropic()
+
     scan_slim = {
         "flags": [{"raw": f["raw"], "context": f["context"]} for f in scan_results["flags"]],
-        "derived": [{"raw": f["raw"], "basis": f.get("basis"), "context": f["context"][:160]}
-                    for f in scan_results["derived"]],
+        "derived": [
+            {
+                "raw": f["raw"],
+                "basis": f.get("basis"),
+                "context": f["context"][:160],
+            }
+            for f in scan_results["derived"]
+        ],
         "matched_count": len(scan_results["matched"]),
     }
-    prompt = (PROMPT
-              .replace("{scan}", json.dumps(scan_slim, indent=1))
-              .replace("{narrative}", narrative_text)
-              .replace("{fs}", fs_text))
+
+    prompt = (
+        PROMPT
+        .replace("{scan}", json.dumps(scan_slim, indent=1))
+        .replace("{narrative}", narrative_text)
+        .replace("{fs}", fs_text)
+    )
+
     msg = client.messages.create(
         model=MODEL,
         max_tokens=8192,
         system=SYSTEM,
         messages=[{"role": "user", "content": prompt}],
     )
+
     text = "".join(b.text for b in msg.content if b.type == "text").strip()
 
-print("===== CLAUDE RESPONSE START =====")
-print(text)
-print("===== CLAUDE RESPONSE END =====")
+    print("===== CLAUDE RESPONSE START =====")
+    print(text)
+    print("===== CLAUDE RESPONSE END =====")
 
-if text.startswith("```"):
-    text = text.split("```")[1]
-    if text.startswith("json"):
-        text = text[4:]
+    if text.startswith("```"):
+        text = text.split("```")[1]
+        if text.startswith("json"):
+            text = text[4:]
 
-return json.loads(text)
+    return json.loads(text)
